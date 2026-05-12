@@ -23,7 +23,7 @@ Maplebirch Framework 配套的模组作者工具包。
 2. 双击 `maplebirch-credential.exe`，用私钥生成授权凭证。
 3. 将模组 `.zip` 拖到 `maplebirch-modpack.exe` 上，生成 `.modpack`。
 
-模组名始终读取 zip 内的 `boot.json.name`，中文名称会原样使用。
+模组名始终读取 zip 内的 `boot.json.name`。
 
 发布包不包含源代码。
 
