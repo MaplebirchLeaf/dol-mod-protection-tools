@@ -1,21 +1,16 @@
 # Maplebirch Author Tools
 
-Maplebirch Framework 配套的模组作者工具包。
+秋枫白桦框架配套的模组作者工具。
 
-用于：
-
-- 生成授权公私钥
-- 生成按日期签发的授权凭证
-- 为模组 zip 注入校验脚本
-- 将模组 zip 转换为 `.modpack`
+本工具需要搭配 [SCML-DOL-maplebirchFramework 秋枫白桦框架](https://github.com/MaplebirchLeaf/SCML-DOL-maplebirchframework) 使用。
 
 ## 工具
 
 发布包包含：
 
-- `maplebirch-keygen.exe`
-- `maplebirch-credential.exe`
-- `maplebirch-modpack.exe`
+- `maplebirch-keygen.exe`：生成公私密钥和 `auth.json`。
+- `maplebirch-credential.exe`：使用私钥签发按日期生成的授权凭证。
+- `maplebirch-modpack.exe`：为模组 `.zip` 注入校验脚本，并转换为 `.modpack`。
 
 ## 使用
 
@@ -23,7 +18,7 @@ Maplebirch Framework 配套的模组作者工具包。
 2. 双击 `maplebirch-credential.exe`，用私钥生成授权凭证。
 3. 将模组 `.zip` 拖到 `maplebirch-modpack.exe` 上，生成 `.modpack`。
 
-模组名始终读取 zip 内的 `boot.json.name`。
+模组名始终读取 zip 内的 `boot.json.name`，中文名称会原样使用。
 
 发布包不包含源代码。
 
