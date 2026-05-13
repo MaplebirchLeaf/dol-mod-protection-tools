@@ -18,9 +18,7 @@
 2. 双击 `[DMPT]-credential.exe`，用私钥生成授权凭证。
 3. 将模组 `.zip` 拖到 `[DMPT]-modpack.exe` 上，生成 `.modpack`。
 
-模组名始终读取 zip 内的 `boot.json.name`，中文名称会原样使用。
-
-发布包不包含源代码。
+模组名始终读取 zip 内的 `boot.json.name`。
 
 凭证只能由私钥签发，不能从凭证反推出私钥。
 
