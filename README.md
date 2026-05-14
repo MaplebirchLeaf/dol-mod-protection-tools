@@ -2,7 +2,7 @@
 
 秋枫白桦框架配套的 DOL 模组加密工具。
 
-本工具需要搭配 [SCML-DOL-maplebirchFramework 秋枫白桦框架](https://github.com/MaplebirchLeaf/SCML-DOL-maplebirchFramework) 使用。
+本工具需要搭配 [秋枫白桦框架](https://github.com/MaplebirchLeaf/SCML-DOL-maplebirchFramework) 使用。
 
 ## 工具
 
